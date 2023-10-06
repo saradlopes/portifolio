@@ -1,0 +1,95 @@
+Body{
+    background-image: url(desenvolvimento.jpeg );
+    background-size: cover;
+    border: 10px;
+    margin:0;
+    max-width: 700px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    
+}
+
+   h1,h2,p{
+    padding: 25px
+    
+}
+    
+p{
+    
+    text-align: center;
+}
+#fotoperfil{
+width: 150px;
+float: left;
+border-radius: 50%;
+border: 5px solid rgb(178, 196, 152);
+}
+
+ul{
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+align-items:center;
+padding: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(240, 236, 236);
+    transition: 0.2s ease-in-out;
+    padding: 40px;
+}
+#titulos{
+    list-style-type: none;
+    padding: 10px;
+}
+#logos{
+    padding: 40px;
+    
+}
+
+{
+$carousel-control-color:             $white;
+$carousel-control-width:             15%;
+$carousel-control-opacity:           .5;
+$carousel-control-hover-opacity:     .9;
+$carousel-control-transition:        opacity .15s ease;
+
+$carousel-indicator-width:           30px;
+$carousel-indicator-height:          3px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer:          3px;
+$carousel-indicator-opacity:         .5;
+$carousel-indicator-active-bg:       $white;
+$carousel-indicator-active-opacity:  1;
+$carousel-indicator-transition:      opacity .6s ease;
+
+$carousel-caption-width:             70%;
+$carousel-caption-color:             $white;
+$carousel-caption-padding-y:         1.25rem;
+$carousel-caption-spacer:            1.25rem;
+
+$carousel-control-icon-width:        2rem;
+
+$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+$carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+
+$carousel-transition-duration:       .6s;
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+} 
+
+
+
+
+footer{
+padding: 16px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.logos {
+    padding: 40px;
+    justify-content: center;
+    float:right;
+
+}
